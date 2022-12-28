@@ -1,9 +1,23 @@
-C:/Users/afshi/Desktop/CAD-CA1/counter.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/counter.v
+C:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
--- Compiling module counter
+-- Compiling module mapToIAndJ
 
 Top level modules:
-	counter
+	mapToIAndJ
+
+} {} {}} C:/Users/afshi/Desktop/CAD-CA1/test.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/test.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module TB
+
+Top level modules:
+	TB
+
+} {} {}} C:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module mapIAndJToNumber
+
+Top level modules:
+	mapIAndJToNumber
 
 } {} {}} C:/Users/afshi/Desktop/CAD-CA1/converter.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/converter.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
@@ -11,6 +25,13 @@ Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
 
 Top level modules:
 	converter
+
+} {} {}} C:/Users/afshi/Desktop/CAD-CA1/counter.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/counter.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter
+
+Top level modules:
+	counter
 
 } {} {}} C:/Users/afshi/Desktop/CAD-CA1/readData.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/readData.v
 Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
