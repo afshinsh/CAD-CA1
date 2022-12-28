@@ -1,0 +1,22 @@
+C:/Users/afshi/Desktop/CAD-CA1/counter.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/counter.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}} C:/Users/afshi/Desktop/CAD-CA1/converter.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/converter.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module converter
+
+Top level modules:
+	converter
+
+} {} {}} C:/Users/afshi/Desktop/CAD-CA1/readData.v {1 {vlog -work work -vopt -stats=none C:/Users/afshi/Desktop/CAD-CA1/readData.v
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module readData
+
+Top level modules:
+	readData
+
+} {} {}}
