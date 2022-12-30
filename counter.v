@@ -1,14 +1,11 @@
-module counter(input clk, rst, init, en_c, output integer counter);
+module counter(input clk, rst, enC, output integer counter);
 	always @ (posedge clk, posedge rst) begin
 		if (rst) 
 			counter <= 0;
 		else
-			if (init)
-				counter <= 0;
+			if (enC)
+				counter <= counter + 1;
 			else
-				if (en_c)
-					counter <= counter + 1;
-				else
-					counter <= counter;
+				counter <= counter;
 	end
 endmodule

@@ -1,6 +1,6 @@
 module memoryHandler(input clk, rst, ldn, writeToFile, input [31:0] number, input [63:0] nIn);
-	integer               data_file    ; // file handler
-  	integer               scan_file    ; // file handler
+	integer data_file; 
+  	integer scan_file;
   	`define NULL 0    
 
 	reg [24:0] outputReg [0:63];
