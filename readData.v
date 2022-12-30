@@ -19,7 +19,6 @@ module readData(input clk, readData, input [31:0] num, output reg [63:0] pipe);
     
     for (n = 0; n < 64; n = n + 1) begin
       scan_file = $fscanf(data_file, "%b\n", captured_data); 
-      $display("run misham ba bit %d va misham in %b", num, captured_data);
       pipe[n] = captured_data[24 - num];
     end
   end

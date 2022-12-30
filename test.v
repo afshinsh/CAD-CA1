@@ -11,7 +11,7 @@ module TB();
 	wire signed [31:0] cnt;
 	
     datapath dp(clk, rst, ldn, readData, enC, writeToFile, cnt);
-    controller ct(clk, rst, start, enC, readData, storeConvertedNumber, writeToFile);
+    controller ct(clk, rst, start, cnt, enC, readData, storeConvertedNumber, writeToFile);
 
 	always #10 clk = ~clk;
 

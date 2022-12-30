@@ -1,5 +1,5 @@
 `timescale 1ns/1ns
-module controller(input clk, rst, start, 
+module controller(input clk, rst, start, input [31:0] cnt 
 		output reg enC, readData, storeConvertedNumber, writeToFile);
 					
 	reg [2:0] presentState, nextState;
@@ -14,7 +14,7 @@ module controller(input clk, rst, start,
 				readingData: begin nextState = calculation; readData = 1; end
 				calculation: begin nextState = storingNumber; end
 				storingNumber: begin nextState = countingUp; storeConvertedNumber = 1; end
-				countingUp: begin nextState = (num > 25) ? writingToFile : readingData; enC = 1; end
+				countingUp: begin nextState = (cnt > 24) ? writingToFile : readingData; enC = 1; end
 				writingToFile: begin nextState = idle; writeToFile = 1; end
 				default: nextState = idle;
 			endcase
