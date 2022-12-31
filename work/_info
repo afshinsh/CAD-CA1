@@ -7,158 +7,231 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-dC:/modeltech64_10.6d/examples
+Z0 dC:/modeltech64_10.6d/examples
 T_opt
-!s110 1672267783
-V`LIHaDa8bbA>b[g>mPhG03
-04 2 4 work TB fast 0
-=1-34cff6308112-63acc806-3dc-55bc
-o-quiet -auto_acc_if_foreign -work work
-Z0 tCvgOpt 0
+!s110 1672420334
+V_HRk;0R8ia95ghN2nc3MF0
+Z1 04 2 4 work TB fast 0
+=1-34cff6308112-63af1bee-1bd-23dc
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
 n@_opt
-OL;O;10.6d;65
+Z4 OL;O;10.6d;65
+R0
+T_opt1
+!s110 1672430754
+VNlW5j59klFRRKcQ_4_Xj03
+R1
+=1-34cff6308112-63af44a2-151-4e48
+R2
+R3
+n@_opt1
+R4
+vcontroller
+Z5 !s110 1672430742
+!i10b 1
+!s100 439S;<8GhM47NlBa[D<oM0
+IiSzmU7kKYS<G2`RYmEU?d2
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 dC:/Users/afshi/Desktop/CAD-CA1
+w1672422432
+8C:/Users/afshi/Desktop/CAD-CA1/controller.v
+FC:/Users/afshi/Desktop/CAD-CA1/controller.v
+L0 2
+Z8 OL;L;10.6d;65
+r1
+!s85 0
+31
+Z9 !s108 1672430742.000000
+!s107 C:/Users/afshi/Desktop/CAD-CA1/controller.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/controller.v|
+!i113 0
+Z10 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
 vconverter
-Z1 !s110 1672267776
+R5
 !i10b 1
 !s100 X1W9>W3o=3TLmj<[mfZ>J0
 IOHKiMHn5QcAN<<6Gooig]2
-Z2 VDg1SIo80bB@j0V0VzS_@n1
-Z3 dC:/Users/afshi/Desktop/CAD-CA1
+R6
+R7
 w1672266441
 8C:/Users/afshi/Desktop/CAD-CA1/converter.v
 FC:/Users/afshi/Desktop/CAD-CA1/converter.v
 L0 1
-Z4 OL;L;10.6d;65
+R8
 r1
 !s85 0
 31
-Z5 !s108 1672267776.000000
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/converter.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/converter.v|
 !i113 0
-Z6 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R0
-vcounter
-R1
-!i10b 1
-!s100 l<zF5`zk?MU:EcTIgCXeh0
-IXakNcefH`A9n95zQWPW4Q2
-R2
+R10
 R3
-w1672183192
+vcounter
+R5
+!i10b 1
+!s100 4Jz]:9MIXWL<RP2`IW_XC3
+I2]444]=31GBS>X7iR3l@i1
+R6
+R7
+w1672404300
 8C:/Users/afshi/Desktop/CAD-CA1/counter.v
 FC:/Users/afshi/Desktop/CAD-CA1/counter.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/counter.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/counter.v|
 !i113 0
-R6
-R0
-vmapIAndJToNumber
-R1
-!i10b 1
-!s100 h3X^FEGPOon?9`7Zk;l^A3
-I6AabB3X76hA@7l8o?AHHR0
-R2
+R10
 R3
-w1672258301
+vdatapath
+R5
+!i10b 1
+!s100 B[2m=jHHVG8i]nIn@fVCb1
+I<U[;5N0`bz:DVWi=:TOIG0
+R6
+R7
+w1672420068
+8C:/Users/afshi/Desktop/CAD-CA1/datapath.v
+FC:/Users/afshi/Desktop/CAD-CA1/datapath.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/afshi/Desktop/CAD-CA1/datapath.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/datapath.v|
+!i113 0
+R10
+R3
+vmapIAndJToNumber
+R5
+!i10b 1
+!s100 mb?[06Q>Kn0>4aVEAlm@R0
+IBX``oCoFRgjaOgnLGncIW0
+R6
+R7
+w1672417775
 8C:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v
 FC:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/mapIAndJToNumber.v|
 !i113 0
-R6
-R0
+R10
+R3
 nmap@i@and@j@to@number
 vmapToIAndJ
-R1
+R5
 !i10b 1
-!s100 GES?1Z2TaL2DFmbkCzLdZ2
-Ie`UC8kYVU0ohL@52WIiC62
-R2
-R3
-w1672266456
+!s100 QKieA^?0mAn6gJ3M63O7[3
+ID1aKHc:h=PmG6R87f?`dP2
+R6
+R7
+w1672417430
 8C:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v
 FC:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/mapToIAndJ.v|
 !i113 0
-R6
-R0
+R10
+R3
 nmap@to@i@and@j
 vmemoryHandler
-R1
+R5
 !i10b 1
-!s100 n_BXIDIJi>ljO6i@oWZMM2
-IDXj<oRYEmK^2K=E]IYe^10
-R2
-R3
-w1672267758
+!s100 S2UV48F`M2Z>3IMTHk^oJ2
+IEYnAHP0f1N0F6WPl11TA>1
+R6
+R7
+w1672423233
 8C:/Users/afshi/Desktop/CAD-CA1/memoryHandler.v
 FC:/Users/afshi/Desktop/CAD-CA1/memoryHandler.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/memoryHandler.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/memoryHandler.v|
 !i113 0
-R6
-R0
-nmemory@handler
-vreadData
-R1
-!i10b 1
-!s100 ]2Il9;9Tj0k=HH_kLM9043
-IB62EP0_i0>o3A:;5L[C840
-R2
+R10
 R3
-w1672267584
-8C:/Users/afshi/Desktop/CAD-CA1/readData.v
-FC:/Users/afshi/Desktop/CAD-CA1/readData.v
+nmemory@handler
+vpermutation
+R5
+!i10b 1
+!s100 GdU:5ChVn?07l:b10PLfG3
+I_2nLY`_TJCf6<JV9VYlbP3
+R6
+R7
+w1672430622
+8C:/Users/afshi/Desktop/CAD-CA1/permutation.v
+FC:/Users/afshi/Desktop/CAD-CA1/permutation.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
+R9
+!s107 C:/Users/afshi/Desktop/CAD-CA1/permutation.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/permutation.v|
+!i113 0
+R10
+R3
+vreadData
 R5
+!i10b 1
+!s100 ;3F8biH;Fe9oO98NoT0BT2
+I8i@7P0j3fGYYdWV>ggX;d0
+R6
+R7
+w1672429593
+8C:/Users/afshi/Desktop/CAD-CA1/readData.v
+FC:/Users/afshi/Desktop/CAD-CA1/readData.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/readData.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/readData.v|
 !i113 0
-R6
-R0
+R10
+R3
 nread@data
 vreg64
 !s110 1672183203
 !i10b 1
 !s100 Jjia9I<29T]FB=jCd[_QT3
 Ib0D7>cM?86g=8U6:D^TPG1
-R2
-R3
+R6
+R7
 w1672182041
 8C:\Users\afshi\Desktop\CAD-CA1\reg64.v
 FC:\Users\afshi\Desktop\CAD-CA1\reg64.v
 L0 1
-R4
+R8
 r1
 !s85 0
 31
@@ -166,27 +239,27 @@ r1
 !s107 C:\Users\afshi\Desktop\CAD-CA1\reg64.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:\Users\afshi\Desktop\CAD-CA1\reg64.v|
 !i113 0
-R6
-R0
-vTB
-R1
-!i10b 1
-!s100 hdYIQ[2K2Ud8z9`Ug_>Z@1
-IkbOP9<ZaijTzl;hKmXTo62
-R2
+R10
 R3
-w1672266935
+vTB
+R5
+!i10b 1
+!s100 NzYdzI6d`TP1:JzVU<6l`2
+I:2S6=01YT0]ZM?4n[]JW61
+R6
+R7
+w1672430685
 8C:/Users/afshi/Desktop/CAD-CA1/test.v
 FC:/Users/afshi/Desktop/CAD-CA1/test.v
 L0 2
-R4
+R8
 r1
 !s85 0
 31
-R5
+R9
 !s107 C:/Users/afshi/Desktop/CAD-CA1/test.v|
 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/afshi/Desktop/CAD-CA1/test.v|
 !i113 0
-R6
-R0
+R10
+R3
 n@t@b

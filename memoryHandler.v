@@ -12,21 +12,22 @@ module memoryHandler(input clk, rst, ldn, writeToFile, input [31:0] number, inpu
 			end	
 		else begin
 			if (ldn) begin
+				$display("writing bit number %d to register ...", number);
 				for (n = 0; n < 64; n = n + 1) begin
 					outputReg[n][24 - number] = nIn[n];
 				end
 			end
 		end
 		if(writeToFile) begin
-			data_file = $fopen("out.dat", "w");
-
+			data_file = $fopen("file\\output_1.txt", "w");
+			$display("writing output to file ...");
 			if (data_file == `NULL) begin
 				$display("data_file handle was NULL");
 				$finish;
 			end
 			
 			for (n = 0; n < 64; n = n + 1) 
-				$fwrite(data_file, "%b\n",outputReg[n]);
+				$fwrite(data_file, "%b\n", outputReg[n]);
 		end
 	end
 endmodule

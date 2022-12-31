@@ -1,5 +1,4 @@
-`timescale 1ns/1ns
-module TB(input clk, rst, ldn, readData, enC, writeToFile, output integer cnt);
+module datapath(input clk, rst, ldn, readData, enC, writeToFile, output [31:0] cnt);
     wire [63:0] matrix;
     wire [63:0] regValue;
 	wire signed [31:0] newI;
@@ -10,7 +9,7 @@ module TB(input clk, rst, ldn, readData, enC, writeToFile, output integer cnt);
 	wire signed [31:0] convertedNumber;
     readData rd(clk, readData, number, matrix);
 	memoryHandler mem(clk, rst, ldn, writeToFile, convertedNumber, matrix);
-	counter cnt(clk, rst, enC, number);
+	counter cnter(clk, rst, enC, number);
 	mapToIAndJ mapToij(number, i, j);
 	converter cnvt(i, j, newI, newJ);
 	mapIAndJToNumber mapijToNum(newI, newJ, convertedNumber);
